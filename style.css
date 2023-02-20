@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+input[type="number"]::-webkit-inner-spin-button{
+    appearance: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: baseline;
+}
+
+.container p{
+    font-size: 20px;
+    color: rgb(5, 33, 158)  ;
+}
+
+.container input{
+    margin:0px 7px;
+    outline: none   ;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 3px 0px;
+}
+.container input#generate{  
+    padding: 7px 10px;
+    background-color: rgb(81, 81, 223);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.datacontainer{
+    border: 2px solid rgb(44, 82, 250)  ;
+    width: 80%;
+    padding: 20px;
+    margin: 0% auto;
+    text-align: center;
+    font-weight: 500;
+}
